@@ -24,4 +24,11 @@ Python · pyTelegramBotAPI · SQLite
 
 > See [PORTFOLIO_ONLY.md](PORTFOLIO_ONLY.md) for portfolio disclaimer.
 
+---
+
+![CI](https://github.com/pepstrik/AmChamRuBot/actions/workflows/ci.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
+---
+
 > Версия на русском: [README.md](README.md)
