@@ -1,21 +1,21 @@
-# CheTamNovostiBot 🎙️
+# AmChamRuBot 🌐
 
-Telegram bot for the podcast *"Che Tam Novosti"* ("What's Up News"): search episodes, get random picks, and auto-post updates.
+Bilingual Telegram bot for AmCham Russia events navigation: RU/EN menu, quick links, and user activity logging.  
 
 🖥️ The production version runs on a private VPS (24/7 uptime).  
 🔒 This repository is portfolio-only: it contains example code, requirements, README, and CI — no secrets or tokens.  
-👉 Try the live bot: [t.me/CheTamNovostiBot](https://t.me/CheTamNovostiBot)
+👉 Try the live bot: [t.me/AmChamRuBot](https://t.me/AmChamRuBot)
 
 ---
 
 ## Features
-- Search episodes, preview details, quick links to podcast platforms  
-- Random episode (/random command)  
-- Auto-post new episodes to a Telegram channel  
-- RSS caching and user database (aiosqlite)
+- Bilingual menu (RU/EN)  
+- Quick links to events and channels  
+- User activity logging in SQLite  
+- `/track_users` command for admins  
 
 ## Tech Stack
-Python · python-telegram-bot v20 · aiosqlite · feedparser · asyncio  
+Python · pyTelegramBotAPI · SQLite  
 
 ---
 
@@ -23,3 +23,5 @@ Python · python-telegram-bot v20 · aiosqlite · feedparser · asyncio
 ![Screenshot](assets/screenshot.png)
 
 > See [PORTFOLIO_ONLY.md](PORTFOLIO_ONLY.md) for portfolio disclaimer.
+
+> Версия на русском: [README.md](README.md)
